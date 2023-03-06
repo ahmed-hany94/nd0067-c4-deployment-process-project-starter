@@ -1,26 +1,36 @@
 # App Documentation
 
-## Infrastructure
+## URLS:
+- [**FRONTEND**](http://udagram-bucket-927116460261.s3-website-us-east-1.amazonaws.com/home)
+- [**BACKEND**](http://udagram-api-dev22222222222.us-east-1.elasticbeanstalk.com/)
 
-![arch](./assets/architecture.png)
+---
 
-## App Dependencies
+## [**App Dependencies**](./app-dependencies.md)
 
-[Backend:](http://udagram-api-dev22222222222.us-east-1.elasticbeanstalk.com/)
-- Elastic Beanstalk
-- Amazon RDS running postgres
+---
 
-[Frontend:](http://udagram-bucket-927116460261.s3-website-us-east-1.amazonaws.com/home)
-- S3
+## [**Infrastructure**](./infrastructure.md)
 
-## Pipeline
+---
 
-![circleci](./assets/circleci.PNG)
+## [**Pipeline**](pipeline.md)
 
-## Screenshots
+---
 
+### Screenshots
+
+#### Frontend
 ![frontend](./assets/deployed-frontend.PNG)
 
+#### Backend
 ![backend](./assets/deployed-backend.PNG)
 
+#### Elastic Beanstalk Health
 ![health](./assets/health.PNG)
+
+#### Elastic Beanstalk Health
+![RDS](./assets/RDS.PNG)
+
+### Elastic Beanstalk Health
+![S3](./assets/S3.PNG)
